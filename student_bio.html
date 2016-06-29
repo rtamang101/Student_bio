@@ -2,27 +2,76 @@
 <html>
 <head>
 <title>class assignment</title>
-<body>
-<h1>Studint Bio</h1>
-<h2>Rohin Tamang</h2>
-<img src="http://placehold.it/200x200" />
-<p>Hello, my name is Rohin Tamang. I hail from tiny country named Nepal. huge fan of rock. \m/\m/.. </p>
+<style>
+	h1{
+		background-color: #d21034;
+		color: #333333;
+		font-family: georgia;
+		font-weight: bold;
+		text-align: center;
+		font-size: 28px;
+		padding: 10px;
+	}
+div{
+	float: left;
+}
+body{
+	max-width: 1024px;
+	align-content: center;
+	margin: 0 auto;
+	padding: 0;
 
-<h3>contact info</h3>
-<ul>
-	<li>email:tmgrohin@gmail.com</li>
-	<li>github: rtamang101</li>
-	<li>portfolio: underworks</li>
-</ul>
+}
+.contact{
+	float: right;
+}
+
+p{
+	width: 70%;
+	margin: 0 5px;
+	margin left: 20px;
+	line-height:calc(24px*1.5);
+
+}
+
+
+/*.clearfix{*/
+	/*overflow: auto;*/
+}
+</style>
+
+</head>
+<body>
+	
+	<h1>Studint Bio</h1>
+
 <div>
-<form>
-	<b>send me a message</b><br>
-	full name <br>
-	<input type="text" name="full name">
-	<br>message <br>
-	<textarea name="message" rows="10" cols="30"></textarea>
-</form>
+
+	<h2>Rohin Tamang</h2>
+
+	<img src="http://placehold.it/200x200" />
 </div>
 
+<p>Hello, my name is Rohin Tamang. I hail from tiny country named Nepal. huge fan of rock. \m/\m/.. </p>
+
+<div class="contact">
+	<h3>contact info</h3>
+	<ul>
+		<li>email:<span font-color="#d21034" >tmgrohin@gmail.com</span></li>
+		<li>github: <span font-color="#d21034">rtamang101</span></li>
+		<li>portfolio:<a>underworks</a></li>
+	</ul>
+</div>
+
+<!-- <div> -->
+	<!-- <form>
+		<b>send me a message</b><br>
+		full name <br>
+		<input type="text" name="full name">
+		<br>message <br>
+		<textarea name="message" rows="10" cols="30"></textarea>
+	</form> -->
+<!-- </div>
+ -->
 </body>
 </html>
